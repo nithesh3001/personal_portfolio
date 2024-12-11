@@ -1,0 +1,37 @@
+/* About Section Styling */
+.about-section img {
+    border: 5px solid #fff;
+    transition: transform 0.3s ease;
+}
+
+.about-section img:hover {
+    transform: scale(1.05);
+}
+
+/* Skills Section */
+.skills-section {
+    background-color: #f8f9fa;
+}
+
+.skills-section h4 {
+    font-size: 1.5rem;
+    color: #007bff;
+}
+
+.skills-section p {
+    font-size: 1.1rem;
+    color: #6c757d;
+}
+
+/* Responsive for About Section */
+@media (max-width: 575.98px) {
+    .about-section .col-md-8 {
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) {
+    .about-section .col-md-8 {
+        text-align: left;
+    }
+}

@@ -1,0 +1,19 @@
+/* Projects Section */
+.projects-section img {
+    height: 200px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.projects-section img:hover {
+    transform: scale(1.05);
+}
+
+/* Card Styling */
+.card-title {
+    font-size: 1.25rem;
+}
+
+.card-text {
+    font-size: 1rem;
+}
