@@ -1,0 +1,38 @@
+/* Contact Section Styling */
+.contact-section {
+    background-color: #f8f9fa;
+}
+
+.contact-section h3 {
+    font-size: 1.75rem;
+    margin-bottom: 20px;
+}
+
+.contact-section form .btn {
+    margin-top: 10px;
+}
+
+.contact-section ul {
+    font-size: 1.1rem;
+}
+
+/* Form Field Styling */
+.form-control {
+    padding: 10px;
+    font-size: 1rem;
+}
+
+/* Follow Me Buttons */
+.contact-section .list-inline-item .btn {
+    margin-top: 10px;
+}
+
+textarea{
+    resize: none;
+}
+/* Contact Section Responsive Adjustments */
+@media (max-width: 575.98px) {
+    .contact-section .col-md-6 {
+        margin-bottom: 20px;
+    }
+}

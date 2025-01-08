@@ -1,0 +1,119 @@
+
+/* Hero Section Styling */
+.hero-section {
+    background-size: cover;
+    background-position: center;
+}
+
+/* Button Styling */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+/* Card Hover Effect */
+.card:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease;
+}
+
+/* General responsive design */
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+/* Hero Section Responsive */
+.hero-section {
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.prof_1{
+    height: 250px;
+    width: 250px;
+    border: 5px solid #007bff ;
+    box-shadow: 0px 0px 25px grey;
+    padding: 5px;
+    border-radius:50% ;
+    object-fit: cover;
+}
+/* Responsive Font Sizes */
+h1 {
+    font-size: 2.5rem; /* Default size for mobile */
+}
+
+p.lead {
+    font-size: 1.25rem;
+}
+
+/* Breakpoints for tablet, laptop, desktop */
+@media (min-width: 576px) {
+    h1 {
+        font-size: 3rem; /* Slightly larger for tablets */
+    }
+
+    .btn-lg {
+        padding: 15px 30px; /* Larger button for tablet */
+    }
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 3.5rem; /* Larger font size for laptops */
+    }
+
+    .hero-section {
+        text-align: left; /* Align text to left on larger screens */
+        /* padding-left: 50px; */
+    }
+}
+
+@media (min-width: 992px) {
+    h1 {
+        font-size: 4rem; /* Large font size for desktops */
+    }
+
+    /* .hero-section {
+        padding-left: 100px;
+    } */
+}
+
+/* Card Layout Responsive Adjustments */
+@media (max-width: 575.98px) {
+    .card {
+        margin-bottom: 20px; /* Add margin to separate cards on small screens */
+    }
+}
+
+@media (min-width: 768px) {
+    .card {
+        margin-bottom: 0; /* No margin needed on larger screens */
+    }
+}
+
+/* Navbar Responsiveness */
+.navbar-nav {
+    text-align: center; /* Center the navigation links on mobile */
+}
+
+@media (min-width: 768px) {
+    .navbar-nav {
+        text-align: right; /* Align to right for larger screens */
+    }
+}
+
+/* Footer */
+footer {
+    font-size: 0.9rem;
+}
+
+/* Adjust footer font size for larger screens */
+@media (min-width: 768px) {
+    footer {
+        font-size: 1rem;
+    }
+}
